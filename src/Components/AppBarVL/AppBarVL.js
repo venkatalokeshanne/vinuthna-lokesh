@@ -15,13 +15,13 @@ export default function AppBarVL() {
             <AppBar component="nav" style={{ backgroundColor: 'white' }}>
                 <Toolbar>
                     <Grid container justifyContent="center">
-                        <Grid item xl={3}  display={{ xs: "none", lg: "block"}}>
+                        <Grid item xl={3}  md={3} display={{ xs: "none",  md: "block"}}>
                             <img src={heart} style={{ height: "60px" }}></img>
                         </Grid>
-                        <Grid item xl={3} xs={12} textAlign="center">
+                        <Grid item xl={3}  md={3} xs={12} textAlign="center">
                             <img src={gettingmarried} style={{ height: "60px" }}></img>
                         </Grid>
-                        <Grid item xl={3} display={{ xs: "none", lg: "block"}} textAlign="end">
+                        <Grid item xl={3}  md={3} display={{ xs: "none", md: "block"}} textAlign="end">
                             <img src={heart} style={{ height: "60px" }}></img>
                         </Grid>
                     </Grid>

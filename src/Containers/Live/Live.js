@@ -5,7 +5,7 @@ import ReactPlayer from "react-player"
 const Live = () => {
     return (
         <><Grid container justifyContent="center" style={{ marginTop: "25px" }}>
-            <Grid item xl={2} xs={3} textAlign="center">
+            <Grid item xl={2} md={2} xs={3} textAlign="center">
                 <svg width="80px" height="80px" viewBox="0 0 100 100" y="0px" x="0px" class="position-absolute start-50 top-50 translate-middle">
                     <g>
                         <path className="path-heart" d="M89.49,37.8c0,25.54-39.59,46.24-39.59,46.24S10.31,63.34,10.31,37.8c0-29.59,39.59-28.67,39.59,0C49.9,10.06,89.49,8.21,89.49,37.8 z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" stroke="#000000" fill="#6B4C90"></path>
@@ -13,7 +13,7 @@ const Live = () => {
                     </g>
                 </svg>
             </Grid>
-            <Grid item xl={2} display={{ xs: "none", lg: "block" }} textAlign="center">
+            <Grid item xl={2} md={2} display={{ xs: "none", md: "block" }} textAlign="center">
                 <svg width="80px" height="80px" viewBox="0 0 100 100" y="0px" x="0px" class="position-absolute start-50 top-50 translate-middle">
                     <g>
                         <path className="path-heart" d="M89.49,37.8c0,25.54-39.59,46.24-39.59,46.24S10.31,63.34,10.31,37.8c0-29.59,39.59-28.67,39.59,0C49.9,10.06,89.49,8.21,89.49,37.8 z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" stroke="#000000" fill="#e8ede6"></path>
@@ -21,10 +21,10 @@ const Live = () => {
                     </g>
                 </svg>
             </Grid>
-            <Grid item xl={2} xs={6} textAlign="center">
+            <Grid item xl={2} md={2} xs={6} textAlign="center">
                 <h2 style={{ fontFamily: "cursive" }}>Watch Live</h2>
             </Grid>
-            <Grid item xl={2} xs={3} textAlign="center">
+            <Grid item xl={2} md={2} xs={3} textAlign="center">
                 <svg width="80px" height="80px" viewBox="0 0 100 100" y="0px" x="0px" class="position-absolute start-50 top-50 translate-middle">
                     <g>
                         <path className="path-heart" d="M89.49,37.8c0,25.54-39.59,46.24-39.59,46.24S10.31,63.34,10.31,37.8c0-29.59,39.59-28.67,39.59,0C49.9,10.06,89.49,8.21,89.49,37.8 z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" stroke="#000000" fill="#f6dce9"></path>
@@ -32,7 +32,7 @@ const Live = () => {
                     </g>
                 </svg>
             </Grid>
-            <Grid item xl={2} display={{ xs: "none", lg: "block" }} textAlign="center">
+            <Grid item xl={2} md={2} display={{ xs: "none", md: "block" }} textAlign="center">
                 <svg width="80px" height="80px" viewBox="0 0 100 100" y="0px" x="0px" class="position-absolute start-50 top-50 translate-middle">
                     <g>
                         <path className="path-heart" d="M89.49,37.8c0,25.54-39.59,46.24-39.59,46.24S10.31,63.34,10.31,37.8c0-29.59,39.59-28.67,39.59,0C49.9,10.06,89.49,8.21,89.49,37.8 z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" stroke="#000000" fill="#e8ede6"></path>

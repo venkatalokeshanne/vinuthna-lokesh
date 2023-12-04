@@ -26,8 +26,8 @@ function Invitaion() {
             </Grid>
 
             <Grid container justifyContent="center" alignItems="center" style={{ marginTop: "25px" }}>
-                <Grid item xl={4} xs={4} spacing={0} textAlign="center"></Grid>
-                <Grid item xl={4} xs={12} spacing={0} textAlign="center">
+                <Grid item xl={4} xs={3} spacing={0} textAlign="center"></Grid>
+                <Grid item xl={4} md={6} xs={12} spacing={0} textAlign="center">
                     <div style={{ position: "relative" }}>
                         <div style={{ position: "absolute", height: "100%", width: "100%" }}><img src={story} style={{ height: "100%", width: "100%" }} ></img></div>
                         <Card style={{ backgroundColor: "#FBF0F6" }}>
@@ -106,17 +106,17 @@ function Invitaion() {
                                             </g>
                                         </svg>
                                     </Grid>
-                                    <Grid item xl={6} xs={10} spacing={0} textAlign="center"><h3>Katuru road</h3></Grid>
+                                    <Grid item xl={6} xs={10} spacing={0} textAlign="center"><h3>Vadde Sobhanadreeswara Rao, Katuru Rd, Nearby Landmark: Hanuman temple.. kadavakollu, Vuyyuru</h3></Grid>
                                 </Grid>
                                 <Grid container justifyContent="center" alignItems="center" >
-                                    <Grid item xl={12} xs={12} spacing={0} textAlign="center"><Button><a target="_blank" href="https://www.google.com/maps/place/Vijayawada,+Andhra+Pradesh,+India/@16.5103132,80.5624821,12z/data=!3m1!4b1!4m6!3m5!1s0x3a35eff9482d944b:0x939b7e84ab4a0265!8m2!3d16.5061743!4d80.6480153!16zL20vMDM4NWs3?entry=ttu">Directions</a></Button></Grid>
+                                    <Grid item xl={12} xs={12} spacing={0} textAlign="center"><a target="_blank" href="https://www.google.com/maps/place/16%C2%B023'48.6%22N+80%C2%B051'09.2%22E/@16.3968322,80.8524484,20.5z/data=!4m4!3m3!8m2!3d16.3968304!4d80.8525487?hl=en&entry=ttu"><Button variant="outlined">Directions</Button></a></Grid>
                                 </Grid>
 
                             </CardContent>
 
                         </Card></div>
                 </Grid>
-                <Grid item xl={4} xs={4} spacing={0} textAlign="center"></Grid>
+                <Grid item xl={4} xs={3} spacing={0} textAlign="center"></Grid>
             </Grid>
 
 
