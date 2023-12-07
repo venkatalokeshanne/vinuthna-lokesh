@@ -41,7 +41,7 @@ const Live = () => {
                 </svg>
             </Grid>
         </Grid><Grid container justifyContent="center" style={{ marginTop: "25px" }}>
-                <ReactPlayer url="https://youtu.be/hYFzyK9ExuM?si=kJbHWhovuzSv_X55" playing={true} height="75vh" width="75vw" controls />
+                <ReactPlayer url="https://www.youtube.com/live/YRPUY7qRVKE?si=At4zXlaRgZ83ixAM" playing={true} height="75vh" width="75vw" controls />
             </Grid></>
 
     )
